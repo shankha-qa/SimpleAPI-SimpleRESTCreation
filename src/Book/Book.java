@@ -21,7 +21,7 @@ public class Book {
 	}
 	
 	@GET
-	@Produces(MediaType.TEXT_XML)
+	@Produces(MediaType.TEXT_HTML)
 	public String sayHelloHTML() {
 		String response = "<h1>Hello HTML</h1>";
 		return response;
